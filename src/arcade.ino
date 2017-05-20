@@ -41,7 +41,7 @@ String msg;
 
 void setup() {
     Serial.begin(9600);  // Useful for debuging, otherwise not neccisary.
-    kpd.setDebounceTime(10); // Default 10. If number is too high, there will be lag.
+    kpd.setDebounceTime(5); // Default 5. If number is too high, there will be lag.
     loopCount = 0;
     startTime = millis();
     msg = "";
