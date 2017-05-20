@@ -21,6 +21,7 @@ After you decide what GPIO pins you want to use, you wire things up according to
 Here's an example of a 3 x 3 grid.
 
 --- | Pin 2 | Pin 3 | Pin 4
+--- | --- | --- | ---
 Pin 6 | A | B | C
 Pin 7 | D | E | F
 Pin 8 | G | H | I
