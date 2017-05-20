@@ -3,7 +3,7 @@
 ## What is this?
 
 This program is meant for arduino micro/leonardo type devices to allow
-keyboard input via usb connection.
+keyboard or other HID type input via usb connection.
 
 ## Is it really that easy?
 
@@ -31,8 +31,6 @@ Imagine the letters are your buttons.  Button A is connected to Pin 2 and Pin 6.
 ## What kind of limitations are there?
 
 I have not tested this yet but I read that there is a limit of 10 keys being pressed at the same time.  For an arcade system, this probably not going to be a problem.  
-
-Lag.  There is currently some noticeable lag that needs to be addressed.  There's some minor adjustments to the code that will be made in the near future, but in the mean time things work ok and is playable.
 
 ## Known problems?
 

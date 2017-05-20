@@ -11,10 +11,6 @@ computer via USB that a button has been pressed.
 Limitations?
 
 10 keys can be pressed at the same time.
-Some lag.
-
-I'll be working on addressing the lag issue in future updates.  For now, this
-is a working sketch.
 */
 
 #include <Keypad.h>
@@ -45,6 +41,7 @@ String msg;
 
 void setup() {
     Serial.begin(9600);  // Useful for debuging, otherwise not neccisary.
+    kpd.setDebounceTime(10); // Default 10. If number is too high, there will be lag.
     loopCount = 0;
     startTime = millis();
     msg = "";
