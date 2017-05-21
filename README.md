@@ -34,8 +34,10 @@ I have not tested this yet but I read that there is a limit of 10 keys being pre
 
 ## Known problems?
 
-In Windows 10, the arduino micro pro might not be recognized as a HID device.  This means that the computer was not allowing the device to send in commands as if it were a device like a keyboard.
+1.  In Windows 10, the arduino micro pro might not be recognized as a HID device.  This means that the computer was not allowing the device to send in commands as if it were a device like a keyboard.
 
 My fix is kind of strange but it works.  Go to device manager, find your Arduino Micro under Ports. Right click, update driver, "Browse my computer for driver software", "Let me pick from a list of available drivers", and now you'll see a couple of options.  I selected the one that says "USB Serial Device" and voila! It works.  
 
 This is not an issue on RaspberryPi devices and most likely not a problem on linux systems either.
+
+2.  On RaspberryPi, you might have some issues.  If you're like me and use an English (US) keyboard, you'll find that there's some keys that don't come out right.  Number keys and all letters seem to work fine, but when using symbols you will have some issues.  I've tried changing my RPi keyboard locale to English (US) but to no avail. 

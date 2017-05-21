@@ -19,10 +19,10 @@ Limitations?
 const byte ROWS = 4; //four rows
 const byte COLS = 3; //three columns
 char keys[ROWS][COLS] = {
-{'1','2','3'},
-{'4','5','6'},
-{'7','8','9'},
-{'*','0','#'}
+{'q','w','e'},
+{'r','t','y'},
+{'u','i','o'},
+{'p','a','s'}
 };            // These keys can be replaced with whatever key you'd like.
               // For ones you can't type like up arrow, please visit
               // https://www.arduino.cc/en/Reference/KeyboardModifiers
